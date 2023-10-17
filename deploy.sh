@@ -10,8 +10,11 @@ GIT_REPO="https://github.com/iomdi2i/node-connect-server.git"
 # Change directory to your app directory
 cd $APP_DIR
 
+ls
+
 # Pull the latest code from your Git repository
 git clone $GIT_REPO
+cd node-connect-server/
 git pull origin dev
 
 # Install or update Node.js application dependencies (assumes you're using npm)
