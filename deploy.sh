@@ -5,7 +5,7 @@ echo "inside-sh file"
 APP_DIR="/home/ubuntu/node-connect-server-dev-test/"
 
 # Remote Git repository URL
-GIT_REPO="https://github.com/iomdi2i/node-connect-server.git"
+GIT_REPO="git@github.com:iomdi2i/node-connect-server.git"
 
 # Change directory to your app directory
 cd $APP_DIR
