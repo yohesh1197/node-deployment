@@ -1,8 +1,6 @@
 #!/bin/bash
 echo "inside-sh file"
 
-exit 0
-
 # Directory where your Node.js application is deployed
 APP_DIR="/home/ubuntu/node-connect-server-dev-test/"
 
@@ -13,6 +11,7 @@ GIT_REPO="https://github.com/iomdi2i/node-connect-server.git"
 cd $APP_DIR
 
 # Pull the latest code from your Git repository
+git clone $GIT_REPO
 git pull origin dev
 
 # Install or update Node.js application dependencies (assumes you're using npm)
