@@ -10,7 +10,7 @@ GIT_REPO="https://yohesh1197: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@github.com
 # Change directory to your app directory
 cd $APP_DIR
 
-ls
+# ls
 
 # Pull the latest code from your Git repository
 # git clone $GIT_REPO
