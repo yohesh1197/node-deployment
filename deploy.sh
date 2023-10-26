@@ -24,7 +24,7 @@ echo "pm2 kill success"
 
 npm run dev &
 echo "App deployment started"
-wait %2
+wait %1
 echo "App deployment success"
 
 exit 0
