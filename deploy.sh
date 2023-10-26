@@ -31,7 +31,7 @@ wait %1
 echo "pm2 kill success"
 
 echo "App deployment started"
-npm run client:dev 
+npm run dev
 echo "App deployment success"
 
 exit 0
