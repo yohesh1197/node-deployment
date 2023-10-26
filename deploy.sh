@@ -6,6 +6,8 @@ APP_DIR="/home/ubuntu/node-connect-server-dev/"
 
 # Change directory to your app directory
 cd $APP_DIR
+
+nvm install --lts
 echo node version - $(node -v)
 # ls
 
