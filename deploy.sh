@@ -6,7 +6,7 @@ APP_DIR="/home/ubuntu/node-connect-server-dev/"
 
 # Change directory to your app directory
 cd $APP_DIR
-echo "node version -" node -v
+echo node version - $(node -v)
 # ls
 
 # Pull the latest code from your Git repository
