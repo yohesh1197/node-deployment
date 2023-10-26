@@ -22,8 +22,9 @@ echo "pm2 kill started"
 wait %1
 echo "pm2 kill success"
 
-npm run dev &
+npm run dev 
 echo "App deployment started"
+sleep 5000 &
 wait %1
 echo "App deployment success"
 
