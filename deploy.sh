@@ -17,11 +17,15 @@ echo "Git pull success"
 npm run install_deps
 echo "Dependency installation success"
 
-pm2 kill
+pm2 kill & 
+echo "pm2 kill started"
+wait
 echo "pm2 kill success"
 
-npm run dev
-echo "App deployment sucess"
+npm run dev &
+echo "App deployment started"
+wait
+echo "App deployment success"
 
 exit 0
 
