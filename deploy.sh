@@ -2,7 +2,7 @@
 echo "inside-sh file"
 
 # Directory where your Node.js application is deployed
-APP_DIR="/home/ubuntu/node-connect-server-dev-test/"
+APP_DIR="/home/ubuntu/node-connect-server-dev/"
 
 # Change directory to your app directory
 cd $APP_DIR
