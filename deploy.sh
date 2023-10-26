@@ -10,7 +10,7 @@ cd $APP_DIR
 # ls
 
 # Pull the latest code from your Git repository
-git pull upstream dev
+git pull origin dev
 echo "Git pull success"
 
 # Install or update Node.js application dependencies (assumes you're using npm)
