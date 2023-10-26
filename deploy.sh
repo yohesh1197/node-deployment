@@ -19,12 +19,12 @@ echo "Dependency installation success"
 
 pm2 kill & 
 echo "pm2 kill started"
-wait
+wait %1
 echo "pm2 kill success"
 
 npm run dev &
 echo "App deployment started"
-wait
+wait %2
 echo "App deployment success"
 
 exit 0
