@@ -16,7 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm install --lts
 echo node version - $(node -v)
 # ls
-
+##
 # Pull the latest code from your Git repository
 git pull origin dev
 echo "Git pull success"
