@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "inside-sh file test"
-#test eight
+#test nine
 # Directory where your Node.js application is deployed
 APP_DIR="/home/ubuntu/node-connect-server-dev/"
 
